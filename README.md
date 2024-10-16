@@ -7,27 +7,24 @@ Python 3.x
 requests library for making HTTP requests
 openpyxl library for handling Excel files
 Setup
-1. Install the required libraries
+#1. Install the required libraries
 Before running the script, make sure you have the required libraries installed. You can install them using pip:
 
-bash
-複製程式碼
+
 pip install requests openpyxl
-2. Clone or Download the Project
+#2. Clone or Download the Project
 You can clone the project using the following command or download it from the repository:
 
-bash
-複製程式碼
+
 git clone <repository-url>
 3. Running the Script
 The script fetches course data from a public API and saves it into an Excel file named python_courses.xlsx. Each page of data is fetched in the loop, and the resulting data is appended to the Excel sheet.
 
 To run the script, execute the following command:
 
-bash
-複製程式碼
+
 python main.py
-4. Expected Output
+#4. Expected Output
 The output of the script will be an Excel file named python_courses.xlsx. The file will contain the following data columns for each course:
 
 Course Title
@@ -38,8 +35,6 @@ Number of Sold Units
 5. API Used
 The script uses the following API endpoint to retrieve course data related to Python:
 
-bash
-複製程式碼
 https://api.hahow.in/api/products/search?category=COURSE&limit=24&page={page}&query=python&sort=RELEVANCE
 The script queries 3 pages of data, with each page containing 24 courses.
 
