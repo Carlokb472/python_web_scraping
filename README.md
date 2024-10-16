@@ -9,19 +9,19 @@ openpyxl library for handling Excel files
 # Setup
 # 1. Install the required libraries
 Before running the script, make sure you have the required libraries installed. You can install them using pip:
-pip install requests openpyxl
+< br / > pip install requests openpyxl
 
 # pip install requests openpyxl
 # 2. Clone or Download the Project
 You can clone the project using the following command or download it from the repository:
-git clone <repository-url>
+< br / > git clone <repository-url>
 
 git clone <repository-url>
 # 3. Running the Script
 The script fetches course data from a public API and saves it into an Excel file named python_courses.xlsx. Each page of data is fetched in the loop, and the resulting data is appended to the Excel sheet.
 
 To run the script, execute the following command:
-python main.py
+< br / > python main.py
 
 # python main.py
 #4. Expected Output
