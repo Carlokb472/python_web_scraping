@@ -8,10 +8,8 @@ requests library for making HTTP requests
 openpyxl library for handling Excel files
 # Setup
 # 1. Install the required libraries
-Before running the script, make sure you have the required libraries installed. You can install them using pip:
-# pip install requests openpyxl
-
-# pip install requests openpyxl
+Before running the script, make sure you have the required libraries installed. You can install them using pip\
+pip install requests openpyxl
 # 2. Clone or Download the Project
 You can clone the project using the following command or download it from the repository:
 # git clone <repository-url>
