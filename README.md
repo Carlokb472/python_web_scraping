@@ -38,7 +38,7 @@ The script uses the following API endpoint to retrieve course data related to Py
 https://api.hahow.in/api/products/search?category=COURSE&limit=24&page={page}&query=python&sort=RELEVANCE
 The script queries 3 pages of data, with each page containing 24 courses.
 
-6. Handling Errors
+# 6. Handling Errors
 If the API request fails, an error message will be printed to the console, specifying the status code.
 If the expected data (products key) is missing from the API response, an error message will be logged, indicating the issue.
 License
