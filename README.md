@@ -9,12 +9,12 @@ openpyxl library for handling Excel files
 # Setup
 # 1. Install the required libraries
 Before running the script, make sure you have the required libraries installed. You can install them using pip:
-< br / > pip install requests openpyxl
+< be />pip install requests openpyxl
 
 # pip install requests openpyxl
 # 2. Clone or Download the Project
 You can clone the project using the following command or download it from the repository:
-< br / > git clone <repository-url>
+< br / >git clone <repository-url>
 
 git clone <repository-url>
 # 3. Running the Script
