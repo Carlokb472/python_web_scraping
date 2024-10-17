@@ -34,7 +34,7 @@ https://api.hahow.in/api/products/search?category=COURSE&limit=24&page={page}&qu
 The script queries 3 pages of data, with each page containing 24 courses.
 # 6. Project 2 is Used for login to Instagram and then download the keyword that you type in the search bar
 
-#7 Project 2 is Used to visit google.com and then download the keyword which you type in the search bar
+# 7 Project 2 is Used to visit google.com and then download the keyword which you type in the search bar
 
 # 6. Handling Errors
 If the API request fails, an error message will be printed to the console, specifying the status code.
